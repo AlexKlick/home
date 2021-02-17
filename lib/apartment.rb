@@ -8,5 +8,9 @@
     @bedrooms = @info[:bedrooms]
    end
 
+   def add_renter(renter)
+    @renter = renter
+
+   end
 
  end
